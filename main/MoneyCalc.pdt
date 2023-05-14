@@ -1,0 +1,67 @@
+version = 0
+sysroot = "C:/Users/PC/Desktop/sysroot.toml"
+sysroots_dir = ""
+parts = []
+
+[Application]
+entry_point = ""
+is_console = true
+is_bundle = true
+name = "MoneyCalc"
+qmake_configuration = ""
+script = "C:\\Users\\PC\\Desktop\\Programacion\\Proyectos\\CalculadorDeDinero\\App\\index.py"
+syspath = ""
+
+[Application.Package]
+name = "C:\\Users\\PC\\Desktop\\Programacion\\Proyectos\\CalculadorDeDinero\\App\\resources"
+exclude = [ "*.pyc", "*.pyd", "*.pyo", "*.pyx", "*.pxi", "__pycache__", "*-info", "EGG_INFO", "*.so",]
+[[Application.Package.Content]]
+name = "about_window.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "CalculateWindow.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "database.db"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "help_icon.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "help_window.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "MainWindow.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "MainWindow.ui"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "money.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "other.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "otherApps_form.ui"
+included = true
+is_directory = false
+
